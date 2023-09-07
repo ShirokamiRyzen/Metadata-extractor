@@ -92,7 +92,7 @@
                     const downloadLink = document.querySelector("#downloadLink");
                     downloadLink.style.display = "block";
                     downloadLink.href = `data:${format};base64,${window.btoa(base64String)}`;
-                    downloadLink.download = "cover.jpg"; // Nama file yang akan diunduh
+                    downloadLink.download = "cover.png"; // Nama file yang akan diunduh
                 },
                 onError: function(error) {
                     console.log(error);
